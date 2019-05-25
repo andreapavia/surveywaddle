@@ -1,3 +1,26 @@
+@import './reset';
+
 body {
     font-family: sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+}
+
+.header {
+    background: linear-gradient(to right top, #af1f11, #ff4f3f);
+    width: 20vw;
+    display: flex;
+    flex-flow: column;
+    overflow: hidden;
+    box-shadow: 0 0px 30px 5px rgba(0, 0, 0, .4);
+
+    &__info {
+        background-color: rgba(0, 0, 0, .2);
+        box-shadow: 0 0 15px 5px rgba(0, 0, 0, .4)
+    }
 }
